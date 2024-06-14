@@ -54,6 +54,15 @@ button {
   width: 68%;
   padding-top: 6px;
 }
+.card .card-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-content > span:nth-of-type(1) {
+  color: rgb(230, 105, 178);
+  font-weight: bold;
+}
 #searchable {
   cursor: zoom-in;
 }

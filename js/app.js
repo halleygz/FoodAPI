@@ -34,7 +34,7 @@ function testAjax(queryURL) {
         label = data.hits[i].recipe.label;
         spanTitle.text(label);
         //This appends the recipe title/label to the recipe image.
-        cardImg.append(spanTitle);
+        cardContent.append(spanTitle);
 
         var pRecipe = $("<p>");
         for (var j = 0; j < 20; j++) {
